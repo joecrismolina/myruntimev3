@@ -1,0 +1,134 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.RaceDetails {
+  width: 100%;
+}
+
+.RaceBanner {
+  width: 50%;
+  margin-left: 25%; 
+  object-fit: contain;
+}
+
+.RaceDetailsContainer {
+  width: 50%;
+  margin: 20px 25%;  
+}
+
+.RaceName {
+  width: 100%;
+  margin: 5px 0;
+  color: #1e4d66;
+  font-size: 1.3em;
+  font-weight: 800;
+  text-align: left;
+  font-family: inherit;
+}
+
+.RaceOrganizer {
+  width: 100%;
+  margin: 5px 0;
+  color: rgba(0,0,0,0.8);
+  font-size: 1.0em;
+  font-weight: 500;
+  text-align: left;
+  font-family: inherit;
+}
+
+.RaceAddress {
+  width: 100%;
+  margin: 5px 0;
+  color: #ff6b24;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-align: left;
+  font-family: inherit;
+}
+
+.RaceDate {
+  width: 100%;
+  margin: 5px 0;
+  color: #1e4d66;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: left;
+  font-family: inherit;
+}
+
+.RaceShareButton {
+  margin-top: 10px;
+  border: none;
+}
+
+.RaceShareButton:hover {
+  cursor: pointer;
+}
+
+.RaceShareButton img {
+  height: 30px;
+}
+
+.TableLabel {
+  width: 100%;
+  margin: 20px 0 20px 0;
+  padding: 5px;
+  background-color: #1e4d66;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: left;
+  font-family: BebasNeueBold;
+  box-sizing: border-box;
+}
+
+.RaceDescription {
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 5px;
+  color: rgba(0,0,0,0.8);
+}
+
+.RaceDescription img {
+  max-width: 100%;
+}
+
+.RaceDescription iframe {
+  max-width: 100%;
+}
+
+.RaceWebsite {
+  width: 100%;
+  margin: 10px 0 20px 0;
+  padding: 5px;
+}
+
+.RaceWebsite a {
+  text-decoration: none;
+  color: #009fda;
+  font-weight: bold;
+}
+
+@media (max-width: 499px) {
+  .RaceBanner {
+    width: 100%;
+    margin: 0;
+  }
+
+  .RaceDetailsContainer {
+    width: 90%;
+    margin: 20px 5%;  
+  }
+
+  .TableLabel {
+    margin-bottom: 0;
+  }
+}

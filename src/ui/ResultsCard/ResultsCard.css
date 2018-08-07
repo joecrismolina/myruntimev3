@@ -1,0 +1,214 @@
+.CollapseCard {
+  background-color: white;
+  border: 1px solid #efefef;
+  box-shadow: 3px 3px 3px #cfcfcf;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  width: 80%;
+  margin: 10px;
+}
+
+.ToggleCollapseButton {
+  display: none;
+}
+
+.ResultsCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: top;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.RaceTypeContainer {
+  background-color: #1e4d66;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.RaceTypeIcon p {
+  font-family: inherit;
+  font-size: 1.0em;
+  color: white;
+  margin: 5px 0 0 0;
+}
+
+.RaceTypeIcon img {
+  width: 100%;
+}
+
+.RaceResultsContainer {
+  padding: 10px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.RaceResultsContainer h1 {
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ff6b24;
+  margin: 0 0 5px 0;
+}
+
+.ResultsParticularsContainer {
+  width: 100%;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ResultsParticular {
+  padding: 10px 0 0 0;
+  margin: 10px 5px 0 5px;
+  border: 1px solid #efefef;
+  text-align: center;
+  width: 100%;
+}
+
+.ResultsParticularLabel {
+  width: 100%;
+  background-color: #1e4d66;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  box-sizing: border-box;
+}
+
+.ResultsParticular p {
+  font-family: inherit;
+  font-size: 0.9em;
+  color: white;
+  margin: 3px 0 0 0;
+}
+
+.ResultsParticular h1 {
+  font-family: inherit;
+  font-size: 1.6em;
+  font-weight: 800;
+  color: #1e4d66;
+  margin: 3px 0 0 0;
+}
+
+.RaceDateContainer {
+  background-color: #ff6b24;
+  padding: 5px;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.RaceDateContainer h1 {
+  font-family: inherit;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white;
+  margin: 5px 0 0 0;
+}
+
+.RaceDateContainer p {
+  font-family: inherit;
+  font-size: 1.0em;
+  color: white;
+  margin: 5px 0 0 0;
+}
+
+.ViewAnalysisButton {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: inherit;
+  color: #1e4d66;
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.ViewAnalysisButton:hover {
+  color: #ff6b24;
+  cursor: pointer;
+}
+
+.ViewAnalysisButton:focus {
+  outline:none;
+}
+
+.DisconnectRaceButton {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: inherit;
+  color: #a0a0a0;
+  font-family: inherit;
+  font-size: 1.0em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.DisconnectRaceButton:hover {
+  color: #1e4d66;
+  cursor: pointer;
+}
+
+.DisconnectRaceButton:focus {
+  outline:none;
+}
+
+.Hidden {
+  display: none;
+}
+
+@media (max-width: 499px) {
+  .HideMobile {
+    display: none;
+  }
+
+  .ShowMobile {
+    display: block;
+  }
+
+  .ExpandableArea {
+    transition: all .25s ease-out;
+  }
+
+  .CollapseCard {
+    max-width: 90%;
+    min-width: 90%;
+    margin: 10px auto;
+  }
+
+  .ResultsParticularsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ToggleCollapseButton {
+    display: block;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    border-top: 1px solid #efefef;
+    font-family: inherit;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #1e4d66;
+    background-color: inherit;
+  }
+
+  .ToggleCollapseButton:focus {
+    outline: none;
+  }
+
+}

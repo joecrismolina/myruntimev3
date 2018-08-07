@@ -1,0 +1,16 @@
+.FloatingNav {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 499px) {
+  .FloatingNav {
+    display: none;
+  }
+}

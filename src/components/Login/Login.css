@@ -1,0 +1,160 @@
+.Login {
+  background-color: #1e4d66;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LoginPageContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.Login h2 {
+  color: white;
+  font-size: 2.0em;
+  font-weight: 400;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  margin: 0 0 0 5px;
+  text-align: center;
+}
+
+.SignUpContainer {
+  font-family: inherit;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2em;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.SignUpContainer:hover {
+  color: #ff6b24;
+  cursor: pointer;
+}
+
+.InputGroup {
+  width: 80%;
+  max-width: 400px;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.InputGroup label {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #cfcfcf;
+  font-size: 1.0em;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.InputGroup input{
+  width: 100%;
+  margin: 5px auto;
+  border: none;
+  background-color: #1e4d66;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.InputGroup input:focus {
+  outline: none;
+}
+
+.InputGroup input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #1e4d66  inset;
+  -webkit-text-fill-color: white !important;
+  outline: none !important;
+}
+
+.SubmitButton {
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #1e4d66;
+  border-radius: 5px;
+  font-size: 1.2em;
+  color: #1e4d66;
+  text-align: center;
+  padding: 10px 0;
+  width: 80%;
+  max-width: 400px;
+}
+
+.SubmitButton:hover {
+  background-color: #ff6b24;
+  color: white;
+  cursor: pointer;
+}
+
+.SubmitButton:disabled {
+  cursor: not-allowed;
+  background-color: #c3c3c3;
+  border: 1px solid #c3c3c3;
+  color: white;
+}
+
+.TogglePasswordLabel {
+  padding: 0 10px 0 0;
+}
+.TogglePasswordLabel:hover {
+  cursor: pointer;
+}
+
+.FbLoginButton {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+}
+
+.FbLoginButton:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #cfcfcf;
+  transform: translate(-2px, -2px);
+}
+
+@media (max-width: 499px) {
+  .Login {
+    width: 100%;
+    padding: 30px 10px;
+  }
+
+  .LoginPageContainer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .FbLoginButton {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .InputGroup input{
+    width: 100%;
+  }
+
+  .SubmitButton {
+    background-color: #ff6b24;
+    color: white;
+    cursor: pointer;
+  }
+
+  .SignUpContainer {
+    background-color: #ff6b24;
+    padding: 15px 20px;
+  }
+
+}

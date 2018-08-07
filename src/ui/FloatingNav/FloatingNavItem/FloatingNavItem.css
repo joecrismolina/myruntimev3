@@ -1,0 +1,35 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.FloatingNavItem {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #1e4d66;
+  border-bottom: 5px solid #1e4d66;
+  color: white;
+  box-sizing: border-box;
+  font-family: BebasNeueBold;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.FloatingNavItem:hover {
+  color: #ff6b24;
+  background-color: #f3f3f3;
+  border-bottom: 5px solid #ff6b24;
+  cursor: pointer;
+}
+
+.Active {
+  color: #ff6b24;
+  background-color: #f3f3f3;
+  border-bottom: 5px solid #ff6b24;
+}

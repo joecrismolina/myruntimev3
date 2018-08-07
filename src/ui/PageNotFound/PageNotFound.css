@@ -1,0 +1,14 @@
+.PageNotFound {
+  width: 100%;
+  height: calc(100vh - 478px);
+  padding: 150px 0;
+  margin: 0;
+  background-color: #1e4d66;
+  color: #ff6b24;
+  text-align: center;
+}
+
+.PageNotFound p {
+  font-size: 2em;
+  font-weight: 800;
+}

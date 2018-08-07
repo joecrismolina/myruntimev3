@@ -1,0 +1,142 @@
+.EditableImageContainer {
+  width: 60%;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+  box-shadow: 3px 3px 3px #cfcfcf;
+  border-radius: 5px;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DisplayImageContainer {
+  width: 200px;
+  margin: 10px 0;
+}
+
+.DisplayImageContainer img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.ImageActionButtonsContainer {
+  width: 200px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.HiddenImageActionButtonsContainer {
+  display: none;
+}
+
+.TakePhotoButton {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 0;
+  box-sizing: border-box;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.TakePhotoButton:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.TakePhotoButton:focus {
+  outline: none;
+}
+
+.UploadImageButton {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 0;
+  box-sizing: border-box;
+  background-color: #28a745;
+  color: white;
+  border: 1px solid #28a745;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.UploadImageButton:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.UploadImageButton:focus {
+  outline: none;
+}
+
+.SaveImageChangesButton {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 0;
+  box-sizing: border-box;
+  background-color: #ffc107;
+  color: white;
+  border: 1px solid #ffc107;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.SaveImageChangesButton:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.SaveImageChangesButton:focus {
+  outline: none;
+}
+
+.SaveImageChangesButton:disabled {
+  background-color: #a0a0a0;
+  color: white;
+  border: 1px solid #a0a0a0;
+  cursor: not-allowed;
+}
+
+@media (max-width: 499px) {
+  .EditableImageContainer {
+    width: 90%;
+  }
+
+  .TakePhotoButton {
+    font-size: 1.2em;
+  }
+
+  .UploadImageButton {
+    font-size: 1.2em;
+  }
+
+  .SaveImageChangesButton {
+    font-size: 1.2em;
+  }
+}

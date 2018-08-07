@@ -1,0 +1,230 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.HomePage {
+  background-color: white;
+}
+
+.DesktopCarousel {
+  display: block;
+}
+
+.MobileCarousel {
+  display: none;
+}
+
+.CarouselContainer {
+  position: relative;
+}
+
+.FeatureButtonsContainer {
+  position: absolute;
+  width: 30%;
+  top: 30%;
+  left: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgba(30,77,102, 0.4);
+}
+
+.FeatureButton {
+  width: 100%;
+  margin: 5px 0; 
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background-color: rgba(54, 25, 25, .00004);
+}
+
+.FeatureButtonActive {
+  width: 100%;
+  margin: 5px 0; 
+  border: 1px solid rgba(255,107,36, 0.8);
+  border-radius: 10px;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background-color: rgba(255,107,36, 0.8);
+}
+
+.FeatureButton:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255, 0.8);
+  color: #ff6b24;
+}
+
+.FeatureButton:focus {
+  outline: none;
+}
+
+.FeatureButtonActive:hover {
+  cursor: pointer;
+  background-color: #ff6b24;
+  color: white;
+}
+
+.FeatureButtonActive:focus {
+  outline: none;
+}
+
+.RaceSection {
+  font-family: inherit;
+  text-align: left;
+  color: #ff6b24;
+  margin: 30px 100px;
+}
+
+.RaceSection h1 {
+  font-family: inherit;
+  font-size: 1.5em;
+  font-weight: 400em;
+  text-align: center;
+  color: white;
+  background-color: #1e4d66;
+  padding: 5px;
+}
+
+.RacesContainer {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button {
+  font-family: 'BebasNeueBold';
+  font-size: 2em;
+  font-weight: 400;
+  color: white;
+  background-color: #1e4d66;
+  border: none;
+  border-radius: 5px;  
+  width: 300px;
+  margin: 20px auto;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.Button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.MobileSearchGroup {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #1e4d66;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.MobileFeatureButtonGroup {
+  display: none;
+}
+
+.MobileFeatureButtonsContainer {
+  display: none;
+}
+
+.FooterGroup {
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .RacesContainer {
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .MobileSearchGroup {
+    display: none;
+  }
+
+  .FooterGroup {
+    display: block;
+  }
+}
+
+@media (max-width: 499px) {
+  .DesktopCarousel {
+    display: none;
+  }
+
+  .MobileCarousel {
+    display: block;
+  }
+
+  .FeatureButtonsContainer {
+    display: none;
+  }
+
+  .MobileFeatureButtonsContainer {
+    position: relative;
+    bottom: 20%;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .MobileFeatureButtonGroup {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgba(30,77,102, 0.4);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 10%;
+    left: 0;
+  }
+
+  .FeatureButton {
+    font-size: 1.0em;
+    margin: 5px;
+  }
+
+  .FeatureButtonActive {
+    font-size: 1.0em;
+    margin: 5px;
+  }
+
+  .RaceSection {
+    margin: 30px 10px;
+  }
+}

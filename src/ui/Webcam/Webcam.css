@@ -1,0 +1,58 @@
+.WebcamContainer {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.CaptureImageButton {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 0;
+  box-sizing: border-box;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.CaptureImageButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.CloseWebcamButton {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 0;
+  box-sizing: border-box;
+  background-color: #a0a0a0;
+  color: white;
+  border: 1px solid #a0a0a0;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.CloseWebcamButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

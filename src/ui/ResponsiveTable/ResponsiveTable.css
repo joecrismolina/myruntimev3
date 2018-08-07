@@ -1,0 +1,114 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.ResponsiveTable {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.ResponsiveTable thead {
+  display: none;
+  background: #1e4d66;
+  color: white;
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.ResponsiveTable tr {
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding: 5px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.ResponsiveTable th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.ResponsiveTable td > a {
+  text-decoration: none;
+  color: #009fda;
+}
+
+.ResponsiveTable th {
+  text-transform: uppercase;
+}
+
+.ResponsiveTable td {
+  display: block;
+  text-align: left;
+  font-size: 0.8em;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  padding-left: 50%;
+}
+
+.ResponsiveTable td:last-child {
+  border-bottom: none;
+}
+
+.ResponsiveTable td:before {
+  content: attr(data-label);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50%;
+  padding-right: 10px;
+  white-space: nowrap;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: BebasNeueBold;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+/* xs only */
+@media screen and (max-width: 499px) {
+
+}
+
+/* sm */
+@media screen and (min-width: 600px) {
+  .ResponsiveTable thead {
+    display: table-header-group;
+    vertical-align: middle;
+  }
+
+  .ResponsiveTable tr {
+    display: table-row;
+    border-bottom-width: 1px;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+
+  .ResponsiveTable tr:nth-child(even) {
+    background: #fafafa;
+  }
+
+  .ResponsiveTable td {
+    display: table-cell;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: none;
+    padding: 10px;
+  }
+
+  .ResponsiveTable td:before {
+    content: "";
+    display: none;
+  }
+}

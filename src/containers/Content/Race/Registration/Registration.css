@@ -1,0 +1,14 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.Registration {
+  width: 100%;
+}

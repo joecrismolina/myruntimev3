@@ -1,0 +1,118 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1e4d66;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+  z-index: 90;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 80%;
+}
+
+.Jumbotron {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.Jumbotron hr {
+  margin: 6px 0;
+}
+
+.Jumbotron:hover {
+ cursor: pointer; 
+}
+
+.ToolbarSearch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ToolbarSearchButtonGroup {
+  border: none;
+  display: block;
+}
+
+.ToolbarSearchButtonGroup a {
+  vertical-align: bottom;
+  text-decoration: none;
+}
+
+.ToolbarSearchInput {
+  height: 30px;
+  padding: 3px 0 3px 10px;
+  font-family: inherit;
+  font-size: 1.0em;
+  border: 1px solid #ddd;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: none;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+.ToolbarSearchInput:focus {
+  outline: none;
+}
+
+.ToolbarSearchButton {
+  height: 30px;
+  padding: 5px 15px;
+  font-family: inherit;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 1px solid #ff6b24;
+  background-color: #ff6b24;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.ToolbarSearchButton:disabled {
+  color: white;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+}
+
+.ToolbarSearchButton:hover {
+  opacity: 0.8;
+}
+
+.ToolbarSearchButton:focus {
+  outline: none;
+}
+
+@media (max-width: 499px) {
+  .Toolbar {
+    padding: 0 10px;
+    border-bottom: none;
+  }
+
+  .ToolbarSearch {
+    display: none;
+  }
+
+  .DesktopOnly {
+    display: none;
+  }
+}

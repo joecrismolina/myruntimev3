@@ -1,0 +1,65 @@
+.ConfirmModalMessage {
+  width: 100%;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.1em;
+  background-color: white;
+  color: black;
+  margin: 20px 0 30px 0;
+}
+
+.ConfirmModalContainer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.ConfirmModalCancelButton {
+  width: 50%;
+  box-sizing: border-box;
+  border: none;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+}
+
+.ConfirmModalCancelButton:hover {
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+.ConfirmModalCancelButton:focus {
+  outline: none;
+}
+
+.ConfirmModalSaveButton {
+  width: 50%;
+  box-sizing: border-box;
+  border: none;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+}
+
+.ConfirmModalSaveButton:hover {
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+.ConfirmModalSaveButton:focus {
+  outline: none;
+}
+
+.ConfirmModalCancelButton i {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: red;
+}
+
+.ConfirmModalSaveButton i {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: green;
+}

@@ -1,0 +1,42 @@
+.MobileNav {
+  background-color: #1e4d66;
+  margin-top: 56px;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.MobileNav nav {
+  height: 100%;
+}
+
+.MobileNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .MobileNav {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .MobileNav {
+    display: none;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .MobileNav {
+    display: none;
+  }
+}

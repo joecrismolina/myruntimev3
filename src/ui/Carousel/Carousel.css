@@ -1,0 +1,48 @@
+.Carousel {
+  margin-top: 56px;
+}
+
+.SlideIn {
+  transform: translateX(100%);
+}
+
+.SlideOut {
+  transform: translateX(-100%);
+}
+
+.Active {
+  display: block;
+}
+
+.Hidden {
+  display: none;
+}
+
+.VisuallyHidden {
+  opacity: 0;
+}
+
+@keyframes fading {
+  0% {
+    opacity:0.2
+  }
+  50% {
+    opacity:1
+  }
+  100% {
+    opacity:0.2
+  }
+}
+
+.Carousel img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  animation:fading 15s 1;
+}
+
+@media (max-width: 499px) {
+  .Carousel {
+    margin-top: 0px;
+  }
+}

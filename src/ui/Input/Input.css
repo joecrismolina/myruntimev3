@@ -1,0 +1,58 @@
+.InputGroup {
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.InputGroup label {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #cfcfcf;
+  font-size: 1.0em;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.InputGroup input, select {
+  border: none;
+  padding: 3px 0;
+  text-align: center;
+  color: rgba(0,0,0,0.8);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+  background-color: white;
+}
+
+.InputGroup option {
+  background-color: white !important;
+}
+
+.InputGroup input:focus,
+.InputGroup select:focus,
+.InputGroup textarea:focus {
+  outline: none;
+}
+
+.InputGroup textarea {
+  color: rgba(0,0,0,0.8);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.0em;
+  width: 100%;
+  border: none;
+}
+
+.InvalidInputGroup {
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #d62424;
+}
+
+.InvalidInputGroup label {
+  color: #d62424;
+}
+
+.InvalidInputGroup input {
+  background-color: #e48e8e;
+}

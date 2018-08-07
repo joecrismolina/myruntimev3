@@ -1,0 +1,40 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.NewsFeed {
+  margin: 30px 10%;
+  background-color: white;
+}
+
+.NewsFeedContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewsFeed h1 {
+  font-size: 2em;
+  font-weight: 500em;
+  text-align: center;
+  color: white;
+  background-color: #1e4d66;
+  padding: 10px;
+}
+
+@media (max-width: 499px) {
+  .NewsFeed {
+    padding: 10px 0;
+    margin-bottom: 70px;
+  }
+}

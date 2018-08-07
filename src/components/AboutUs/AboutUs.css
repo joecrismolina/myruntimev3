@@ -1,0 +1,55 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.AboutUs {
+  background-color: white;
+  width: 80%;
+  margin: 20px 0;
+  padding: 10px 100px;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  color: rgba(0,0,0,0.8);
+}
+
+.Button {
+  font-family: 'BebasNeueBold';
+  font-size: 2em;
+  font-weight: 400;
+  color: white;
+  background-color: #1e4d66;
+  border: none;
+  border-radius: 5px;  
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto 10px auto;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.Button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.AboutUs a {
+  color: #009fda;
+  text-decoration: none;
+}
+
+.AboutUs p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 499px) {
+  .AboutUs {
+    padding: 10px;
+  }
+}

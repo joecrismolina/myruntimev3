@@ -1,0 +1,113 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.SearchBar {
+  width: 100%;
+  background-color: #1e4d66;
+  border: none;
+  margin: 10px 0;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBar input {
+  height: 30px;
+  width: 70%;
+  padding-left: 10px;
+  background-color: white;
+  border: none;
+  box-sizing: border-box;
+}
+
+.SearchBar input:focus {
+  outline: none;
+}
+
+.SearchBar button {
+  height: 30px;
+  border: none;
+  background-color: #ff6b24;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchBar button:hover {
+  opacity: 0.8;
+}
+
+.SearchBar button:focus {
+  outline: none;
+}
+
+.SearchBar button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.SearchLabel {
+  align-self: center;
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+  display: block;
+}
+
+.SearchIcon {
+  display: none;
+  padding: 5px;
+  color: white;
+}
+
+.SearchIcon i {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 499px) {
+  .SearchBar {
+    width: 100%;
+    padding: 0;
+    background-color: inherit;
+  }
+
+  .SearchBar input {
+    width: 85%;
+    border: 1px solid #ddd;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-left: 10px;
+  }
+
+  .SearchBar button {
+    width: 15%;
+  }
+
+  .SearchLabel {
+    display: none;
+  }
+
+  .SearchIcon {
+    display: block;
+  }
+
+}

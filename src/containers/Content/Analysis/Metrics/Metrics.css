@@ -1,0 +1,10 @@
+.AllMetricsContainer {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 499px) {
+  .AllMetricsContainer {
+    padding: 0 10px;
+  }
+}

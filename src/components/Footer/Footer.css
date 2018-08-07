@@ -1,0 +1,18 @@
+.Footer {
+  width: 100%;
+  background-color: #1e4d66;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 0;
+  border-top: 2px solid #e1e1e1;
+}
+
+.Footer img {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.Footer p {
+  margin: 0;
+}

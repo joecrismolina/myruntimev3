@@ -1,0 +1,27 @@
+.ActionButton {
+  background-color: white;
+  display: inline-block;
+  border-bottom: none;
+  border-top: 1px solid #cfcfcf;
+  font-size: 1.2em;
+  color: #1e4d66;
+  text-align: center;
+  padding: 10px 0;
+  width: 50%;
+}
+
+.LeftButton {
+  border-right: 1px solid #cfcfcf;
+  border-left: none;
+}
+
+.RightButton {
+  border-left: 1px solid #cfcfcf;
+  border-right: none;
+}
+
+.ActionButton:hover {
+  background-color: #1e4d66;
+  color: white;
+  cursor: pointer;
+}

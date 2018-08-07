@@ -1,0 +1,49 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('../../../assets/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  font-weight: bold;
+  src: url('../../../assets/fonts/BebasNeue Bold.otf');
+}
+
+.UpcomingRaces {
+  margin: 30px 10%;
+  background-color: white;
+}
+
+.RacesContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.MobileSearchGroup {
+  display: none;
+}
+
+@media (max-width: 499px) {
+  .UpcomingRaces {
+    padding: 10px 0;
+    margin-bottom: 70px;
+  }
+
+  .MobileSearchGroup {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #1e4d66;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+}

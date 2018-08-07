@@ -1,0 +1,12 @@
+{
+  "short_name": "MyRunTime",
+  "name": "MyRunTime",
+  "icons": {
+    "48" : "myruntime-icon-48.png",
+    "96" : "myruntime-icon-96.png"
+  },
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#1e4d66",
+  "background_color": "#ffffff"
+}

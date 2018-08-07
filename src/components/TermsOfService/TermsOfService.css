@@ -1,0 +1,40 @@
+.TosMainContainer {
+  background-color: white;
+  width: 80%;
+  margin: 20px 10%;
+  padding: 10px 100px;
+  box-sizing: border-box;
+}
+
+.TosContainer {
+  margin: 30px 0;
+}
+
+.TosContainer  > h1 {
+  font-family: inherit;
+  font-weight: 800;
+  color: #ff6b24;
+  margin: 15px 0;
+}
+
+.TosContainer  > h2 {
+  font-family: inherit;
+  color: #1e4d66;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.TosContainer  > p {
+  font-family: inherit;
+  color: rgba(0,0,0,0.8);
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+@media (max-width: 499px){
+  .TosMainContainer {
+    width: 90%;
+    margin: 10px 5%;
+    padding: 10px 0;
+  }
+}

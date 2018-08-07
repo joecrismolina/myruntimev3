@@ -1,0 +1,213 @@
+.AllRaces {
+  margin: 30px 100px 70px 100px;
+  background-color: white;
+}
+
+.AllRacesContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.MobileSearchGroup {
+  display: none;
+}
+
+.FilterContainer {
+  width: 60%;
+  display: block;
+  margin: 80px 20% 20px 20%;
+  padding: 10px 20px;
+  background-color: #1e4d66;
+  border: none;
+  box-sizing: border-box;
+}
+
+.FilterContainer h1 {
+  font-family: 'BebasNeueBold';
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  margin-top: 0;
+}
+
+.FilterName {
+  font-size: 0.8em;
+  color: #efefef;
+  margin-bottom: 5px;
+}
+
+.FilterGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px 0;
+}
+
+.Filter {
+  margin: 0 20px;
+  width: 33%;
+}
+
+.FilterInput {
+  width: 100%;
+  font-size: 0.8em;
+  padding: 3px 10px;
+  border: none;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.FilterInput:focus {
+  outline: none;
+}
+
+.FilterSelect {
+  width: 100%;
+  font-size: 0.8em;
+  padding: 3px 10px;
+  border: none;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.FilterSelect:focus {
+  outline: none;
+}
+
+.FilterButton {
+  font-family: 'BebasNeueBold';
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #ff6b24;
+  color: white;
+  padding: 5px 35px;
+  width: 20%;
+  border: none;
+  box-sizing: border-box;
+  margin: 20px 0 0 80%;
+  cursor: pointer;
+}
+
+.FilterButton:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.FilterButton:hover {
+  opacity: 0.8;
+}
+
+.MobileFilterButton {
+  display: none;
+}
+
+@media (max-width: 499px) {
+  .AllRaces {
+    padding: 10px 0;
+    margin: 30px 0px 100px 0px;
+  }
+
+  .MobileSearchGroup {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #1e4d66;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  .FilterContainer {
+    display: none;
+  }
+
+  .MobileFilterContainer {
+    max-height: 100%;
+    overflow-y: scroll;
+  }
+
+  .MobileFilterButton {
+    background-color: #1e4d66;
+    border: none;
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin: 5px 5% 10px 5%;
+    width: 90%;
+    display: block;
+  }
+
+  .MobileFilterButton:focus {
+    outline:none;
+  }
+
+  .MobileFilterHideButton {
+    border: none;
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: inherit;
+    color: #1e4d66;
+    margin: 5px 5% 10px 5%;
+    width: 90%;
+    display: block;
+  }
+
+  .MobileFilterGroup {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .MobileFilterName {
+    width: 100%;
+    text-align: left;
+    font-size: 1.0em;
+    color: #888888;
+  }
+
+  .MobileFilterInput {
+    width: 100%;
+    font-size: 1.2em;
+    background-color: white;
+    border: 1px solid #888888;
+    margin: 5px 0;
+    border-radius: 3px;
+    padding-left: 5px;
+    box-sizing: border-box;
+  }
+
+  .MobileFilterSelect {
+    width: 100%;
+    font-size: 1.2em;
+    background-color: white;
+    border: 1px solid #888888;
+    margin: 5px 0;
+    border-radius: 3px;
+    padding-left: 5px;
+    box-sizing: border-box;
+  }
+
+  .MobileFilterApplySearchButton {
+    width: 90%;
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #ff6b24;
+    border: 1px solid #ff6b24;
+    border-radius: 3px;
+    color: white;
+    margin: 20px 5% 10px 5%;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+}

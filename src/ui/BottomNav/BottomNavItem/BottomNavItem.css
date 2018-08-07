@@ -1,0 +1,36 @@
+.Item {
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: block;
+}
+
+.Item i {
+  font-size: 30px;
+  color: rgba(0,0,0,0.6);
+  display: block;
+  margin-top: 5px;
+}
+
+.Item p {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 3px 0 5px 0;
+  color: rgba(0,0,0,0.6);
+}
+
+.Active {
+  background-color: rgba(0,0,0, 0.2);
+}
+
+.Active i {
+  color: white;
+  display: block;
+}
+
+.Active p {
+  color: white;
+}

@@ -1,0 +1,35 @@
+@keyframes fading {
+  0% {
+    opacity:0.2
+  }
+  50% {
+    opacity:0.5
+  }
+  100% {
+    opacity:1
+  }
+}
+
+.Loaded {
+  animation:fading 3s 1;
+  width: 100%;
+  display: block;
+}
+
+.Image {
+  width: 100%;
+  display: block;
+}
+
+.Hidden {
+  display: none;
+}
+
+.Preview {
+  min-width: 100%;
+}
+
+.PreviewImageClass {
+  filter: blur(25px);
+  -webkit-filter: blur(25px);
+}

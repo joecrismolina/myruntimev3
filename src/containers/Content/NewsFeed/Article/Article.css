@@ -1,0 +1,157 @@
+.ArticleContainer {
+  width: 50%;
+  margin: 100px 25% 30px 25%;
+  background-color: white;  
+}
+
+.ArticleBanner {
+  width: 100%;
+}
+
+.ArticleTitle {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.4em;
+  color: #1e4d66;
+  text-align: left;
+  margin: 10px 0 20px 0;
+}
+
+.ArticleAuthor {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.0em;
+  color: black;
+  text-align: left;
+  margin: 10px 0 20px 0;
+}
+
+.ArticleBody {
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.8em;
+  color: black;
+  text-align: left;
+  margin: 10px 0 20px 0;
+}
+
+.ArticleBody iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.ArticleBody img {
+  width: 560px;
+}
+
+.ArticleShareButton {
+  margin-top: 20px;
+  border: none;
+}
+
+.ArticleShareButton:hover {
+  cursor: pointer;
+}
+
+.ArticleShareButton img {
+  height: 30px;
+}
+
+.ArticlePlaylist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ArticlePlaylist iframe {
+  width: 360px;
+  height: 480px;
+}
+
+.ArticlePlaylistFootnote {
+  box-sizing: border-box;
+  margin: 20px 0 30px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.ArticlePlaylistFootnote p {
+  font-family: inherit;
+  font-size: 0.8em;
+  font-weight: 400;
+  margin: 3px 0;
+  color: rgba(0,0,0,0.8);
+}
+
+.ArticlePlaylistFootnote a {
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 400;
+  margin: 3px 0;
+  color: #009fda;
+  text-decoration: none;
+}
+
+.ExternalArticleBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ExternalArticleBody p {
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 3px 0;
+  color: rgba(0,0,0,0.8);
+}
+
+.ExternalArticleBody a {
+  text-decoration: none;
+}
+
+.ExternalArticleDigest {
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 400;
+  margin: 3px 0;
+  color: rgba(0,0,0,0.8);
+}
+
+.ExternalArticleReadMore {
+  box-sizing: border-box;
+  border: none;
+  background-color: #ff6b24;
+  color: white;
+  padding: 5px;
+  margin: 20px 0;
+  width: 200px;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+@media (max-width: 499px) {
+  .ArticleContainer {
+    width: 90%;
+    margin: 20px 5%;
+  }
+
+  .ArticlePlaylist iframe {
+    width: 90%;
+    height: 380px;
+  }
+
+  .ArticleBody iframe {
+    width: 90%;
+  }
+
+  .ArticleBody img {
+    width: 90%;
+  }
+}

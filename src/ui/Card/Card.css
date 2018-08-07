@@ -1,0 +1,86 @@
+.Card {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  box-shadow: 3px 3px 3px #cfcfcf;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0 0 0;
+  min-width: 300px;
+  max-width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.Card img {
+  width: 100%;
+}
+
+.InfoBox {
+  padding: 0 15px;
+  min-height: 200px;
+}
+
+.CardTitle {
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #1e4d66;
+  margin: 25px 0 10px 0;
+}
+
+.CardHeading1 {
+  font-family: inherit;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #ff6b24;
+  margin: 10px 0;
+}
+
+.CardHeading2 {
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 500;
+  color: #ff6b24;
+  margin: 10px 0;
+}
+
+.CardHeading3 {
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 400;
+  color: #1e4d66;
+  margin: 10px 0;
+}
+
+.Card button {
+  font-family: 'BebasNeueBold';
+}
+
+.CardChildren {
+  width: 100%;
+}
+
+@media (max-width: 499px) {
+  .Card {
+    margin: 15px auto;
+  }
+
+  .InfoBox {
+    padding: 0 15px;
+    min-height: 170px;
+  }
+
+  .CardTitle {
+    font-weight: bold;
+  }
+
+  .CardHeading1 {
+    font-weight: bold;
+  }
+
+}

@@ -1,0 +1,99 @@
+.UserPageContainer {
+  width: 70%;
+  margin: 30px 15% 70px 15%;
+  background-color: white;
+  padding: 0;
+}
+
+.ProfileContainer {
+  background-color: #1e4d66;
+  width: 100%;
+  min-height: 200px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ProfileImageContainer {
+  width: 16%;
+}
+
+.NameContainer {
+  width: 100%;
+  margin-top: 3px;
+  display: block;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: white;
+}
+
+.OthersContainer {
+  width: 100%;
+  margin-top: 3px;
+  display: block;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 300;
+  color: white;
+}
+
+.ProfileImage {
+  width: 100%;
+}
+
+.ViewContainer {
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.NameGenderContainer {
+  width: 33%;
+  padding: 0 20px;
+}
+
+.RaceCountContainer {
+  width: 33%;
+  padding: 0 20px;
+}
+
+.RaceCount {
+  text-align: center;
+  font-family: inherit;
+  font-size: 2.0em;
+  font-weight: 700;
+  color: white;
+}
+
+.RaceCountLabel {
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 300;
+  color: white;
+}
+
+@media (max-width: 499px) {
+  .UserPageContainer {
+    margin: 0px 0px 100px 0px;
+    width: 100%;
+  }
+
+  .ProfileContainer {
+    height: 200px;
+  }
+
+  .ProfileImageContainer {
+    width: 33%;
+  }
+}

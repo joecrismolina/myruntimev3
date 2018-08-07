@@ -1,0 +1,33 @@
+.MainConnectContainer {
+  width: 100%;
+  height: calc(100vh - 54px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.MainConnect {
+  width: 80%;
+  margin: 30px 10%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.RacesContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 499px) {
+  .MainConnect {
+    width: 90%;
+    padding: 10px 0;
+    margin-bottom: 70px;
+  }
+}
